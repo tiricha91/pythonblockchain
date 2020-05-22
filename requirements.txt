@@ -1,0 +1,3 @@
+pip install bit
+pip install web3
+pip install dotenv
