@@ -15,13 +15,13 @@ def send_tx(coin,account, recipient, amount):
         return NetworkAPI.broadcast_tx_testnet(signed_tx)
 ```
 
-![Company Logo](bitcointesttransaction.png)
+![bitcointest](bitcointesttransaction.png)
 ## This is the code that i used to send the transaction imaged above. 
 ```{r}
 send_tx(BTCTEST, btctest_account,"mhzQ7M4s4a5b6Cu3pYQ9B4g1HW251KqcUD",.001)
 ```
 
-![Company Logo](ethtransaction.png)
+![ethtest](ethtransaction.png)
 ## This is the code that i used to send the Ehtereum transaction above
 
 ```{r}
